@@ -38,10 +38,14 @@ The first parameters are indicate the layer of the neural network.
 
 - First index is input layer. The exaple means there is a input layer with 9 input. 
 
-- Seccond index must be wraped on an array. This index indicated the hi with 3 output
-dden layer you want. The example means that there is 2 hidden layer with 6 neourons on first layer and 4 neurons on second layer.
+- Seccond index must be wraped on an array. This index indicated the hidden layer you want. The example means that there is 2 hidden layer with 6 neourons on first layer and 4 neurons on second layer.
 
-- Third index is output layer. The example means there is an output layer
+- Third index is output layer. The example means there is an output layer with 3 output
+
+The seccond parameter is the type of activation function you want to use
+- 1 means sigmoid
+- 2 means ReLU
+- 3 means tanh
 
 ### 2. Train Data
 You can train your data using ```train``` method.
